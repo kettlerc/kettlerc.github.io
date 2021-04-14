@@ -1,0 +1,48 @@
+/* CSS HEX
+--black: #000000ff;
+--oxford-blue: #14213dff;
+--orange-web: #fca311ff;
+--platinum: #e5e5e5ff;
+--white: #ffffffff;*/
+
+
+body {
+    background-color: #e5e5e5;
+    font-family: Montserrat, sans-serif;
+}
+
+#navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#navbar .navbar-brand {
+    color: #FCA311;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#navbar .nav-link:hover {
+    background-color: #14213D;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    transition: ease-in-out 250ms;
+}
+
+#navbar .active-page {
+    background-color: #14213D;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+#intro {
+    background-color: #eee8e1;
+}
+
+li {
+    max-width: 750px;
+}
